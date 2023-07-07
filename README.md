@@ -4,13 +4,11 @@
 
 <p align="center"><img src="https://img.shields.io/badge/Service-Multiport (XRAY)-cyan"></p>
 
-<pre><code>apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/Zeadxt/aaa/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh</code></pre>
+<pre><code>apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/SETANTAZVPN/aaa/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh</code></pre>
 
  
 <p align="center"<h2>DONATE ME IN</h2></p>
 
-<p align="center"<img src="https://github.com/Zeadxt/asd/blob/main/20230314_155654.jpg" width="470"/></p>
-
 <br>
-<strong><h3>DANA : <pre><code>081927625651</pre></code></h3>
-<strong><h3>OVO  :<pre><code> 081927625651</pre></code></h3>
+<strong><h3>DANA : <pre><code>083849022672</pre></code></h3>
+
