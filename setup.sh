@@ -166,11 +166,11 @@ read -rp "Choose Your Domain Installation : " dom
 
 if test $dom -eq 1; then
 clear
-wget -q -O /root/cf.sh "https://${Server_URL}/cf.sh"
+wget -q -O /root/cf.sh "https://raw.githubusercontent.com/SETANTAZVPN/aaa/main/cf.sh"
 chmod +x /root/cf.sh
 ./cf.sh
 elif test $dom -eq 3; then
-wget -q -O /root/cf1.sh "https://${Server_URL}/cf1.sh"
+wget -q -O /root/cf1.sh "https://raw.githubusercontent.com/SETANTAZVPN/aaa/main/cf.sh"
 chmod +x /root/cf1.sh
 ./cf1.sh
 elif test $dom -eq 2; then
