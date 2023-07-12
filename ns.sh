@@ -15,13 +15,13 @@ off='\x1b[m'
 
 clear
 apt install jq curl -y
-DOMAIN=zeavpn.biz.id
+DOMAIN=tazcoeg.eu.org
 domen=$( cat /etc/xray/domain)
 sub=$(</dev/urandom tr -dc 0-9 | head -c5)
-SUB_DOMAIN=${sub}.zeavpn.biz.id
+SUB_DOMAIN=${sub}.tazcoeg.eu.org
 NS_DOMAIN=dns.${SUB_DOMAIN}
-CF_ID=pribadi.no99@gmail.com
-CF_KEY=e706e0ce65fb5c6e233c233e6e2e6614d4aec
+CF_ID=tazzpyns@gmail.com
+CF_KEY=1ff2e2bfc5f3341e1e7a70ed2c1a333841a8b
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS NS for ${NS_DOMAIN}..."
