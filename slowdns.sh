@@ -63,7 +63,7 @@ echo -e "${OKEY} Starting( ${GREEN} Istall slowdns ${NC} )"
 #// port
 cd
 mkdir -m 777 /etc/slowdns
-wget -q -O /root/plugin.zip "https://raw.githubusercontent.com/Zeadxt/aaa/main/plugin.zip"
+wget -q -O /root/plugin.zip "https://raw.githubusercontent.com/SETANTAZVPN/aaa/main/plugin.zip"
 unzip plugin.zip
 rm -r -f plugin.zip
 cd dnstt-plugin
